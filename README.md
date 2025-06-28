@@ -43,16 +43,16 @@
 
 ### Venv:
     - python -m venv venv
-### Активація Venv:
+### Активація Venv в PowerShell:
 ### Windous:
     - venv\Scripts\activate
 ### Linux/MacOS:
     - source venv/bin/activate 
 
-### Download venv:
+### Download venv в PowerShell:
     - pip install -r requirements.txt
 
-### Start project:
+### Start project в терміналі проекту:
     - python main.py
 
 ### Mechanics:
@@ -60,8 +60,10 @@
 2. Відповіді у форматі JSON.
 
 ### Result:
-У процесі розробки проєкту ми:
-
-1. Ознайомились з основами роботи з API.
-2. Навчились обробляти дані у форматі JSON.
-3. Попрактикувалися у створенні GUI на базі CustomTkinter.
+Цей проект є удобним GUI інтерфейсом, який у реальному часі демонструє погодний стан в городах з усього світу.
+Користувачі можуть зручно та швидко побачити мінімальну, максимальну, реальну температуру, також стан погоди свого та інших міст. 
+Інтерфейс включає в себе приємне меню із синьо-блакитною гаммою. Основна частина показує стан погоди вашого міста по часу. Зліва ви можете побачити стан погоди з інших городів світу. 
+\
+This project is a convenient GUI interface that displays real-time weather conditions in cities around the world.
+Users can conveniently and quickly see the minimum, maximum, actual temperature, as well as the weather conditions of their and other cities. 
+The interface includes a nice menu with a blue color scheme.The main part shows the weather conditions of your city by time. On the left you can see the weather conditions of other cities around the world.
